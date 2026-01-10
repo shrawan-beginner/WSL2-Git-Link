@@ -7,4 +7,4 @@ So, once the order and specificity is properly fixed, the changes will reflect o
 
 ## Result Screenshot - Fixed Cascade
 
-![Expected Output](/Result.png)
+![Expected Output](./Result.png)
