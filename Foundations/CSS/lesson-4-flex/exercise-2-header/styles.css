@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  background: papayawhip;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+ul li,
+.logo {
+  background: white;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.logo {
+  color: red;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+ul li {
+  color: blue;
+  font-size: 20px;
+}
