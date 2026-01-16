@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.information {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 20px;
+}
+
+.title h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  margin-top: 20px;
+}
+
+.card {
+  max-width: 200px;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
