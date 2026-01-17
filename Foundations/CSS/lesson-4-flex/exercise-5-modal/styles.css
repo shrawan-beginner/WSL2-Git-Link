@@ -27,6 +27,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  gap: 16px;
 }
 
 .icon {
