@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.modal-box {
+  background-color: grey;
+  height: 100vh;
+  max-width: 100dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  width: 480px;
+  padding: 20px;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.icon {
+  background-color: lavender;
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon,
+.close-button {
+  flex-shrink: 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.continue {
+  background: blue;
+  color: white;
+  border: 1px solid royalblue;
+}
+
+.cancel {
+  background: white;
+  color: royalblue;
+  border: 1px solid #ddd;
+}
+
+.close-button {
+  background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #eee;
+}
