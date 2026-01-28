@@ -1,6 +1,7 @@
 # Final Landing Project of the Flexbox Foundations Path
 
 This is the main project for CSS and Flexbox part of the Foundations Path, where all of the stylings and flex properties was used to create the layout shown in the provided screenshot.
+Currently, I have used blank placeholder fields where the iamges should be added as I am just practicing it for demo purposes.
 
 ### Image for the provided screenshot reference and result layout created.
 
